@@ -1,20 +1,14 @@
-package h02;
+package h04;
 
-//import van packages
 import java.awt.*;
 import java.applet.*;
 
-public class H2_1 extends Applet {
-
-    //applet maken
+public class H4_5 extends Applet{
     public void init(){
-
         setBackground(Color.blue);
     }
-
-    //de naam schrijven
     public void paint(Graphics g){
         g.setColor(Color.yellow);
-        g.drawString("Rick", 200, 200);
+        g.fillArc(30,50,200,100,0,360);
     }
 }
