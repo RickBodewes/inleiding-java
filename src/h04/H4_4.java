@@ -8,7 +8,7 @@ public class H4_4 extends Applet{
 
     }
     public void paint(Graphics g){
-        //de diagram maken
+        //het diagram maken
         g.drawLine(20,50,20,290);
         g.drawLine(20,290,220,290);
         g.drawLine(15, 50, 20, 50);
