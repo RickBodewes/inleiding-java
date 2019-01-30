@@ -10,10 +10,10 @@ public class H5_1 extends Applet{
     int h;
 
     public void init(){
-        line = Color.blue;
-        fill = Color.yellow;
-        w = 200;
-        h = 400;
+        line = Color.red;
+        fill = Color.black;
+        w = 400;
+        h = 200;
     }
     public void paint(Graphics g){
         g.setColor(line);
