@@ -25,6 +25,8 @@ public class H4_4 extends Applet{
         g.drawLine(20,170,220,170);
         g.drawLine(20,210,220,210);
         g.drawLine(20,250,220,250);
+
+
         //valerie
         g.setColor(Color.red);
         g.fillRect(40,210,40,80);

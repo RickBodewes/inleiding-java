@@ -6,13 +6,13 @@ import java.applet.*;
 
 public class H11praktijk extends Applet {
     int a;
-    int res;
+    long res;
 
     Button ok;
     TextField input;
 
     public void init() {
-        setSize(200, 150);
+        setSize(250, 150);
 
         a = 0;
         res = 0;
