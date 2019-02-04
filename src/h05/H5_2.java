@@ -10,9 +10,9 @@ public class H5_2 extends Applet {
 
     public void init(){
         //hier bepalen we het gewicht van de slachtoffers
-        v=189;//kg
+        v=89;//kg
         j=69;//kg
-        h=89;//kg
+        h=45;//kg
     }
     public void paint(Graphics g){
         //het diagram maken

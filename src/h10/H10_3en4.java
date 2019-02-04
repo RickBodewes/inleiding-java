@@ -33,7 +33,8 @@ public class H10_3en4 extends Applet {
     class calc implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             jaar = Integer.parseInt(year.getText());
-            switch (month.getText()) {
+            String m = month.getText();
+            switch (m) {
                 case "1":
                     maand = "januari";
                     dagen = "31";

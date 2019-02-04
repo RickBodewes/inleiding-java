@@ -9,8 +9,8 @@ public class radiant extends Applet{
     }
     public void paint(Graphics g){
         for(int i=0; i<=255; i++){
-            g.setColor(new Color(i,199,0));
-            g.drawLine(0,i,400,i);
+            g.setColor(new Color(0,0,0));
+            g.drawLine(0,i,400,i/2);
         }
     }
 }
