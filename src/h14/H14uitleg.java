@@ -7,17 +7,20 @@ import java.net.*;
 public class H14uitleg extends Applet {
 
 
-    private Image afbeelding;
-    private URL pad;
+    Image afbeelding;
+    URL pad;
+    AudioClip bell;
 
     public void init() {
-        pad = H14uitleg.class.getResource("/resources/");
+        pad = H14uitleg.class.getResource("/h14/resources/");
         afbeelding = getImage(pad, "IMG_6940.JPG");
+        bell = getAudioClip(pad,"bell.wav");
     }
 
     public void paint(Graphics g) {
         g.drawString(pad.toString(), 20, 10);
         g.drawImage(afbeelding, 20, 20, 400, 300, this);
+        bell.play();
     }
 
 
@@ -44,4 +47,4 @@ public class H14uitleg extends Applet {
 
      */
 }
-///Users/rick/Documents/ok/inleiding-java/out/production/inleiding-java/h14/resources/IMG_6940.JPG
+//url naar foto: /Users/rick/Documents/ok/inleiding-java/out/production/inleiding-java/h14/resources/IMG_6940.JPG

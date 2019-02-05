@@ -37,7 +37,9 @@ public class H8_1 extends Applet {
 
     class resetListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
+
             txtvak.setText("");
+            repaint();
         }
     }
 
