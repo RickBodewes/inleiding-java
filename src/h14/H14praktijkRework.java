@@ -68,11 +68,11 @@ public class H14praktijkRework extends Applet {
         if ((appels - 1) % 4 == 0) {
             botplays = r;
         } else {
-                botplays = (appels - 1) % 4;
+            botplays = (appels - 1) % 4;
         }
         System.out.println(" bot " + botplays);
-        if(botplays < 0){
-            botplays =0;
+        if (botplays < 0) {
+            botplays = r;
         }
         return botplays;
     }
